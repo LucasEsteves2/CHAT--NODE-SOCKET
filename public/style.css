@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+
+ background-image: url(imgs/image_processing20210831-27498-1x6q4ra.gif);
+
+ 
+ background-size: cover;
+ background-position: center center;
+ 
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+
+  background-image: url('');
+  background-size: cover;
+
+
+}
+
+#chat {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 600px;
+  border: 1px solid #ddd;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+button {
+  width: 600px;
+  height: 50px;
+  font-size: 14px;
+  background: rgb(25, 164, 233);
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+button:hover
+{
+  background: #069;
+}
+
+
+
+
+.messages {
+  opacity: 55;
+  width: 600px;
+  height: 400px;
+  margin: 20px 0;
+  border: 1px solid rgb(90, 89, 89);
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  opacity : 0.4; 
+} 
+
+
+.redes-social 
+{
+  display: flex;
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 10px;
+
+}
+
+.redes-social ol
+{
+  transition: all 0.5s;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.redes-social ol:hover
+{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
